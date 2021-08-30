@@ -27,5 +27,5 @@ while True:
             driver = webdriver.Chrome(chrome_options=chrome_options)
             driver.get(url)
             time.sleep(interval)
-            driver.close()
+            driver.quit()
 
